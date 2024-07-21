@@ -1,9 +1,14 @@
-import React from 'react'
+import Navbar from "./components/Navbar/Navbar";
+import Form from "./components/Form/Form";
+import './App.css';
 
 function App() {
   return (
-    <div>Hello App!</div>
-  )
+    <div>
+      <Navbar />
+      <Form />
+    </div>
+  );
 }
 
-export default App
+export default App;
